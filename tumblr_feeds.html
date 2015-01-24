@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tumbax 1.0 - Display Tumblr feeds on your website - Jquery plugin</title>
+	
+	<script src="http://code.jquery.com/jquery-1.7.js"></script>
+	
+	<script type="text/javascript">
+	
+	//mandatory----------------
+	var tumblrBlogLink="http://codehandling.tumblr.com/";	
+	var tumblrApiKey="fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4";
+	
+	//optional-----------------
+	var tumbaxWidgetWidth = 800; 
+	var pathToLoadingImage = './loader.gif';
+	var tumbaxColumns = 2;
+
+	
+	
+	/*
+	var tumblrBlogLink="http://loor-audiovisual.tumblr.com";
+	var tumblrBlogLink="http://assassincreeds.tumblr.com";
+	var tumblrBlogLink="http://starsinatelescope.tumblr.com";
+	var tumblrBlogLink="http://edoro.tumblr.com";
+	var tumblrBlogLink="http://pizzeta.tumblr.com";
+	var tumblrBlogLink="http://aegilaetus.tumblr.com/";
+	
+	
+	var tumblrApiKey="fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4";
+	*/
+	//optional parameters-----------------------------------------------
+	
+	
+	function goClicked() {
+		$('#tumbax').empty();
+		tumblrBlogLink=$('#tumblrBlogLink').val();
+		
+		prepareTumbax();
+	}
+	
+	</script>
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }	  
+	  
+	  
+	  
+		
+	</style>
+
+	</head>
+  <body>
+	
+		<h1>Tumbax 1.0 - Display Tumblr feeds on your website - Jquery plugin</h1>
+		Enter your Tumblr Blog Url: <span style="color:red;">(Ex: http://codehandling.tumblr.com)</span><br/>
+		<input type="text" id="tumblrBlogLink"/>&nbsp;
+		<input type="button" value="Go" onclick="goClicked();"/>
+		<br/>
+		<br/>
+		
+		<div id="tumbax">
+		</div>
+
+		<script src="./tumbax.min.js"></script>
+
+  </body>
+</html>
+
+
+
