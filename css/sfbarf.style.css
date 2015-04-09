@@ -1,0 +1,59 @@
+body {
+	font-family: 'Noticia Text', serif;
+}
+
+a:link {
+	color: #F06;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #603;
+}
+
+a:hover {
+	color: #C06;
+}
+
+a:active {
+	color: #FFF;
+}
+
+#tumbax-header {
+	display: none !important;
+}
+
+#tumbax {
+	width: 100% !important;
+}
+
+blink {
+	-webkit-animation: blink 1s steps(5, start) infinite;
+	-moz-animation: blink 1s steps(5, start) infinite;
+	-o-animation: blink 1s steps(5, start) infinite;
+	animation: blink 1s steps(5, start) infinite;
+}
+
+@
+-webkit-keyframes blink {to { visibility:hidden;
+	
+}
+
+}
+@
+-moz-keyframes blink {to { visibility:hidden;
+	
+}
+
+}
+@
+-o-keyframes blink {to { visibility:hidden;
+	
+}
+
+}
+@
+keyframes blink {to { visibility:hidden;
+	
+}
+}
