@@ -1,12 +1,22 @@
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../images/favicon.ico">
+
 <title>SFBA Renters Federation</title>
+
+<!-- Bootstrap core CSS -->
+<link href="../bootstrap.min.css" rel="stylesheet">
 
 <link
 	href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700,400italic|Cutive+Mono'
 	rel='stylesheet' type='text/css'>
-<!-- Bootstrap core CSS -->
-<link href="../bootstrap.min.css" rel="stylesheet">
 
 <!--[if lt IE 10]>
 <script>
@@ -25,67 +35,20 @@ setInterval(toggleItem, 1000);
 </script>
 <![endif]-->
 
-<style type="text/css">
-body {
-	font-family: 'Noticia Text', serif;
-}
 
-a:link {
-	color: #F06;
-	text-decoration: none;
-}
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 
-a:visited {
-	color: #603;
-}
+<script src="../strapping/ie-emulation-modes-warning.js"></script>
 
-a:hover {
-	color: #C06;
-}
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-a:active {
-	color: #FFF;
-}
-
-#tumbax-header {
-	display: none !important;
-}
-
-#tumbax {
-	width: 100% !important;
-}
-
-blink {
-	-webkit-animation: blink 1s steps(5, start) infinite;
-	-moz-animation: blink 1s steps(5, start) infinite;
-	-o-animation: blink 1s steps(5, start) infinite;
-	animation: blink 1s steps(5, start) infinite;
-}
-
-@
--webkit-keyframes blink {to { visibility:hidden;
-	
-}
-
-}
-@
--moz-keyframes blink {to { visibility:hidden;
-	
-}
-
-}
-@
--o-keyframes blink {to { visibility:hidden;
-	
-}
-
-}
-@
-keyframes blink {to { visibility:hidden;
-	
-}
-}
-</style>
+<!-- sfbarf style -->
+<link href="../css/sfbarf.style.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -109,201 +72,228 @@ keyframes blink {to { visibility:hidden;
 			</div>
 		</div>
 	</div>
-	
+
 	<hr>
 
 	<div class="container-fluid">
-		<div class="col-md-4">
-			<h3>Nav</h3>
-			<ul class="list-unstyled">
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="california.html">Golden State</a></li>
-				<li><a href="berkeley.html">Berkeley</a></li>
-				<li><a href="oakland.html">Oakland</a></li>
-				<li><a href="videos.html">Speeches</a></li>
-				<li><a href="background.html">Nuance</a></li>
-				<li><a href="http://www.reddit.com/r/SFBARF/wiki/index">Talking Points</a></li>
-			</ul>
-		</div>
+		<div class="col-md-3">
+			<div class="panel-group" id="nav-top-level">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#nav-top-level"
+								href="#collapseOne"> By Region </a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<ul class="list-unstyled">
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="california.html">Golden State</a></li>
+								<li><a href="berkeley.html">Berkeley</a></li>
+								<li><a href="oakland.html">Oakland</a></li>
+							</ul>
 
-		<div class="col-md-4">
-			<p>Mar 10, 2015</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=22223&view_id=10&embed=1&player_width=320&player_height=240&entrytime=1734&stoptime=1965&auto_start=0"></iframe>
-		</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#nav-top-level"
+								href="#collapseTwo"> Extras </a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+						<div class="panel-body">
 
-		<div class="col-md-4">
-			<p>Feb 13, 2015</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="270"
-				id="GranicusFlashPlayerFrame"
-				src="http://emeryville.granicus.com/MediaPlayer.php?clip_id=910&view_id=5&embed=1&player_width=320&player_height=240&entrytime=3416&stoptime=4540&auto_start=0"></iframe>
-		</div>
+							<ul class="list-unstyled">
+								<li><a href="videos.html">Speeches</a></li>
+								<li><a href="background.html">Nuance</a></li>
+								<li><a href="http://www.reddit.com/r/SFBARF/wiki/index">Talking
+										Points</a></li>
+							</ul>
 
-		<div class="col-md-4">
-			<p>Jan 22, 2015</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21861&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6993&stoptime=7419&auto_start=0"></iframe>
-		</div>
+							<!-- Inner accordion ends here -->
 
-		<div class="col-md-4">
-			<p>Oct 2, 2014</p>
-			<p>
-				As it turns out, everybody reads <a
-					href="http://www.sfexaminer.com/sanfrancisco/pro-development-activist-group-barf-agitates-for-more-housing/Content?oid=2907973">The
-					Examiner</a>.
-			</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="300"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21085&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6230&stoptime=6527&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>June 11, 2014</p>
-			<p>
-				Oakland Planning Commission- WOSP <br> <a
-					href="http://oakland.granicus.com/MediaPlayer.php?publish_id=e825b109-43b7-1032-8c97-0dc9cb9cac89">You
-					have to click through to video</a>. SFBARF speakers start at 1h 48
-				minutes, but there are a couple of great speeches starting at 1 hour
-				26 minutes. Highly recommended.
-			</p>
-		</div>
-
-		<div class="col-md-4">
-			<p>June 5, 2014</p>
-			<p>Planning Commission; 2051 - 3rd Street aka 650 Illinois St.</p>
-		</div>
-
-		<div class="col-md-4">
-			<p>May 7, 2014</p>
-			<p>Board of Appeals; 2051 - 3rd Street aka 650 Illinois St.
-				Supporting the ISSUANCE of Tree Removal Permit</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=20032&view_id=6&embed=1&player_width=320&player_height=240&entrytime=1533&stoptime=5838&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>May 1st, 2014</p>
-			<p>
-				SF Planning Commission <a
-					href="http://sanfrancisco.granicus.com/MediaPlayer.php?view_id=20&clip_id=19987">Video
-					of full hearing</a>
-			</p>
-		</div>
-
-		<div class="col-md-4">
-			<p>Micah and Carey talking about 650 Indiana St (item 13)</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=15600&stoptime=16193&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>Sonja and Micah talking about 1201-1225 Tennesee St (item 14)</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=17250&stoptime=17977&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>Mar 10, 2015</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=22223&view_id=10&embed=1&player_width=320&player_height=240&entrytime=1734&stoptime=1965&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>Feb 13, 2015</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="270"
-				id="GranicusFlashPlayerFrame"
-				src="http://emeryville.granicus.com/MediaPlayer.php?clip_id=910&view_id=5&embed=1&player_width=320&player_height=240&entrytime=3416&stoptime=4540&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>Jan 22, 2015</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21861&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6993&stoptime=7419&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>Oct 2, 2014</p>
-			<p>
-				As it turns out, everybody reads <a
-					href="http://www.sfexaminer.com/sanfrancisco/pro-development-activist-group-barf-agitates-for-more-housing/Content?oid=2907973">The
-					Examiner</a>.
-			</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="300"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21085&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6230&stoptime=6527&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>June 11, 2014</p>
-			<p>
-				Oakland Planning Commission- WOSP <br> <a
-					href="http://oakland.granicus.com/MediaPlayer.php?publish_id=e825b109-43b7-1032-8c97-0dc9cb9cac89">You
-					have to click through to video</a>. SFBARF speakers start at 1h 48
-				minutes, but there are a couple of great speeches starting at 1 hour
-				26 minutes. Highly recommended.
-			</p>
-		</div>
-
-		<div class="col-md-4">
-			<p>June 5, 2014</p>
-			<p>Planning Commission; 2051 - 3rd Street aka 650 Illinois St.</p>
-		</div>
-
-
-		<div class="col-md-4">
-			<p>May 7, 2014</p>
-			<p>Board of Appeals; 2051 - 3rd Street aka 650 Illinois St.
-				Supporting the ISSUANCE of Tree Removal Permit</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=20032&view_id=6&embed=1&player_width=320&player_height=240&entrytime=1533&stoptime=5838&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>May 1st, 2014</p>
-			<p>
-				SF Planning Commission <a
-					href="http://sanfrancisco.granicus.com/MediaPlayer.php?view_id=20&clip_id=19987">Video
-					of full hearing</a>
-			</p>
-			<p>Micah and Carey talking about 650 Indiana St (item 13)</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=15600&stoptime=16193&auto_start=0"></iframe>
-		</div>
-
-		<div class="col-md-4">
-			<p>Sonja and Micah talking about 1201-1225 Tennesee St (item 14)</p>
-			<iframe scrolling="no" style="border: 0" width="320" height="340"
-				id="GranicusFlashPlayerFrame"
-				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=17250&stoptime=17977&auto_start=0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		
+
+		<div class="col-md-4">
+			<p>Mar 10, 2015</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=22223&view_id=10&embed=1&player_width=320&player_height=240&entrytime=1734&stoptime=1965&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Feb 13, 2015</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="270"
+				id="GranicusFlashPlayerFrame"
+				src="http://emeryville.granicus.com/MediaPlayer.php?clip_id=910&view_id=5&embed=1&player_width=320&player_height=240&entrytime=3416&stoptime=4540&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Jan 22, 2015</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21861&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6993&stoptime=7419&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Oct 2, 2014</p>
+			<p>
+				As it turns out, everybody reads <a
+					href="http://www.sfexaminer.com/sanfrancisco/pro-development-activist-group-barf-agitates-for-more-housing/Content?oid=2907973">The
+					Examiner</a>.
+			</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="300"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21085&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6230&stoptime=6527&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>June 11, 2014</p>
+			<p>
+				Oakland Planning Commission- WOSP <br> <a
+					href="http://oakland.granicus.com/MediaPlayer.php?publish_id=e825b109-43b7-1032-8c97-0dc9cb9cac89">You
+					have to click through to video</a>. SFBARF speakers start at 1h 48
+				minutes, but there are a couple of great speeches starting at 1 hour
+				26 minutes. Highly recommended.
+			</p>
+		</div>
+
+		<div class="col-md-4">
+			<p>June 5, 2014</p>
+			<p>Planning Commission; 2051 - 3rd Street aka 650 Illinois St.</p>
+		</div>
+
+		<div class="col-md-4">
+			<p>May 7, 2014</p>
+			<p>Board of Appeals; 2051 - 3rd Street aka 650 Illinois St.
+				Supporting the ISSUANCE of Tree Removal Permit</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=20032&view_id=6&embed=1&player_width=320&player_height=240&entrytime=1533&stoptime=5838&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>May 1st, 2014</p>
+			<p>
+				SF Planning Commission <a
+					href="http://sanfrancisco.granicus.com/MediaPlayer.php?view_id=20&clip_id=19987">Video
+					of full hearing</a>
+			</p>
+		</div>
+
+		<div class="col-md-4">
+			<p>Micah and Carey talking about 650 Indiana St (item 13)</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=15600&stoptime=16193&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Sonja and Micah talking about 1201-1225 Tennesee St (item 14)</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=17250&stoptime=17977&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Mar 10, 2015</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=22223&view_id=10&embed=1&player_width=320&player_height=240&entrytime=1734&stoptime=1965&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Feb 13, 2015</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="270"
+				id="GranicusFlashPlayerFrame"
+				src="http://emeryville.granicus.com/MediaPlayer.php?clip_id=910&view_id=5&embed=1&player_width=320&player_height=240&entrytime=3416&stoptime=4540&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Jan 22, 2015</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21861&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6993&stoptime=7419&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Oct 2, 2014</p>
+			<p>
+				As it turns out, everybody reads <a
+					href="http://www.sfexaminer.com/sanfrancisco/pro-development-activist-group-barf-agitates-for-more-housing/Content?oid=2907973">The
+					Examiner</a>.
+			</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="300"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=21085&view_id=20&embed=1&player_width=320&player_height=240&entrytime=6230&stoptime=6527&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>June 11, 2014</p>
+			<p>
+				Oakland Planning Commission- WOSP <br> <a
+					href="http://oakland.granicus.com/MediaPlayer.php?publish_id=e825b109-43b7-1032-8c97-0dc9cb9cac89">You
+					have to click through to video</a>. SFBARF speakers start at 1h 48
+				minutes, but there are a couple of great speeches starting at 1 hour
+				26 minutes. Highly recommended.
+			</p>
+		</div>
+
+		<div class="col-md-4">
+			<p>June 5, 2014</p>
+			<p>Planning Commission; 2051 - 3rd Street aka 650 Illinois St.</p>
+		</div>
+
+
+		<div class="col-md-4">
+			<p>May 7, 2014</p>
+			<p>Board of Appeals; 2051 - 3rd Street aka 650 Illinois St.
+				Supporting the ISSUANCE of Tree Removal Permit</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=20032&view_id=6&embed=1&player_width=320&player_height=240&entrytime=1533&stoptime=5838&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>May 1st, 2014</p>
+			<p>
+				SF Planning Commission <a
+					href="http://sanfrancisco.granicus.com/MediaPlayer.php?view_id=20&clip_id=19987">Video
+					of full hearing</a>
+			</p>
+			<p>Micah and Carey talking about 650 Indiana St (item 13)</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=15600&stoptime=16193&auto_start=0"></iframe>
+		</div>
+
+		<div class="col-md-4">
+			<p>Sonja and Micah talking about 1201-1225 Tennesee St (item 14)</p>
+			<iframe scrolling="no" style="border: 0" width="320" height="340"
+				id="GranicusFlashPlayerFrame"
+				src="http://sanfrancisco.granicus.com/MediaPlayer.php?clip_id=19987&view_id=20&embed=1&player_width=320&player_height=240&entrytime=17250&stoptime=17977&auto_start=0"></iframe>
+		</div>
+
 	</div>
 	<!-- end fluid container -->
-	<script>
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script',
-				'//www.google-analytics.com/analytics.js', 'ga');
 
-		ga('create', 'UA-58909495-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-
+	<!-- Bootstrap core JavaScript
+	<!-- "Bootstrap Starter Template." 9 Apr. 2015. Web. 9 Apr. 2015. 
+	<!-- <http://getbootstrap.com/examples/starter-template/#>.
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="../strapping/jquery.min.js"></script>
+	<script src="../strapping/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="../strapping/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
