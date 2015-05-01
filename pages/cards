@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title></title>
 </head>
-<body onload="window.location = 'http://example.com/'">
+<body onload="window.location = 'http://sfbarf.tumblr.com/tagged/cards?soc_src=mail&soc_trk=ma'">
 
 <!--redirect to SFBARF cards-->
 
