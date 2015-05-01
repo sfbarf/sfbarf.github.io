@@ -58,3 +58,7 @@ keyframes blink {to { visibility:hidden;
 	
 }
 }
+
+.highlight {
+text-decoration: underline;
+}
