@@ -29,35 +29,88 @@ a:active {
 }
 
 blink {
-	-webkit-animation: blink 1s steps(5, start) infinite;
-	-moz-animation: blink 1s steps(5, start) infinite;
-	-o-animation: blink 1s steps(5, start) infinite;
-	animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 2.2s steps(3, start) infinite;
+  -moz-animation:    blink 2.2s steps(3, start) infinite;
+  -o-animation:      blink 2.2s steps(3, start) infinite; 
+  animation:         blink 2.2s steps(3, start) infinite;
 }
 
-@
--webkit-keyframes blink {to { visibility:hidden;
-	
+@-webkit-keyframes blink {
+  to { visibility: hidden; }
+}
+@-moz-keyframes blink {
+  to { visibility: hidden; }
+}
+@-o-keyframes blink {
+  to { visibility: hidden; }
+}
+@keyframes blink {
+  to { visibility: hidden; }
 }
 
-}
-@
--moz-keyframes blink {to { visibility:hidden;
-	
+
+
+blink1 {
+  -webkit-animation: blink 2s steps(3, start) infinite;
+  -moz-animation:    blink 2s steps(3, start) infinite;
+  -o-animation:      blink 2s steps(3, start) infinite; 
+  animation:         blink 2s steps(3, start) infinite;
 }
 
+@-webkit-keyframes blink1 {
+  to { visibility: hidden; }
 }
-@
--o-keyframes blink {to { visibility:hidden;
-	
+@-moz-keyframes blink1 {
+  to { visibility: hidden; }
+}
+@-o-keyframes blink1 {
+  to { visibility: hidden; }
+}
+@keyframes blink1 {
+  to { visibility: hidden; }
 }
 
+blink2 {
+  -webkit-animation: blink 1.33s steps(3, start) infinite;
+  -moz-animation:    blink 1.33s steps(3, start) infinite;
+  -o-animation:      blink 1.33s steps(3, start) infinite; 
+  animation:         blink 1.33s steps(3, start) infinite;
 }
-@
-keyframes blink {to { visibility:hidden;
-	
+
+@-webkit-keyframes blink1 {
+  to { visibility: hidden; }
 }
+@-moz-keyframes blink1 {
+  to { visibility: hidden; }
 }
+@-o-keyframes blink1 {
+  to { visibility: hidden; }
+}
+@keyframes blink1 {
+  to { visibility: hidden; }
+}
+
+
+blink3 {
+  -webkit-animation: blink 1.66s steps(3, start) infinite;
+  -moz-animation:    blink 1.66s steps(3, start) infinite;
+  -o-animation:      blink 1.66s steps(3, start) infinite; 
+  animation:         blink 1.66s steps(3, start) infinite;
+}
+
+@-webkit-keyframes blink1 {
+  to { visibility: hidden; }
+}
+@-moz-keyframes blink1 {
+  to { visibility: hidden; }
+}
+@-o-keyframes blink1 {
+  to { visibility: hidden; }
+}
+@keyframes blink1 {
+  to { visibility: hidden; }
+}
+
 
 .highlight {
 text-decoration: underline;
