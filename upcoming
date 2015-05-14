@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="icon" href="images/favicon.ico">
+
+
+<title>SFBA Renters Federation</title>
+
+<link
+    href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700,400italic|Cutive+Mono'
+    rel='stylesheet' type='text/css'>
+<!--[if lt IE 10]>
+<script>
+       toggleItem = function(){
+           var el = document.getElementsByTagName('blink')[0];
+           if (el.style.display === 'block') {
+               el.style.display = 'none';
+           } else {
+               el.style.display = 'block';
+           }
+       }
+
+       setInterval(toggleItem, 1000);
+
+
+
+
+</script>
+<![endif]-->
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="strapping/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- sfbarf style -->
+<link href="css/sfbarf.style.css" rel="stylesheet" type="text/css">
+
+
+  
+</head>
+<body>
+  
+<body>
+<div class="container-fluid">
+
+
+  <div class="row">
+    <div class="col-md-4">
+      <h2>SF Bay Area Renters' Federation</h2>
+      <script data-gratipay-username="SFBayAreaRentersFed"
+              src="//grtp.co/v1.js"></script>
+    </div>
+    <div class="col-md-8">
+      <h3>What is this?</h3>
+
+      <div style="border-style: solid; border-color: #000; padding: 10px;">
+        <p>Have you ever thought to yourself, "I wish the Bay Area could build more housing units"? <br>
+          US TOO. As it turns out, every week there are opportunities for you, dear member of the public, to weigh in on
+          whether specific projects should be built. <a href="https://groups.google.com/forum/#!forum/sfbarentersfed">Join
+            our googlegroup</a> to be alerted of opportunities to tell decision makers all over the Bay that it's time
+          to get going with housing production. <br>
+          "Uhh, can't I just vote on something?" Sure, put your contact info and street address in the form below. We
+          will email you when it is time to vote. <span style="color:#093">SIGN UP NO MATTER WHERE YOU LIVE, WHETHER OR NOT YOU ALREADY REGISTERED TO VOTE.</span>
+          Elections happen everywhere, and you have until October <a href="https://covr.sos.ca.gov/?language=en-US">to
+            register</a>.
+        </p>
+      </div>
+      <!-- end purple border -->
+    </div>
+  </div>
+  <hr>
+  <div class="col-md-1"><a href="http://www.reddit.com/r/SFBARF/wiki/faq">FAQ</a></div>
+  <div class="col-md-2">
+    <a href="https://github.com/sfbarf">Fork me on github</a>
+  </div>
+  <div class="col-md-1">
+    <a href="http://www.reddit.com/r/SFBARF/">reddit</a>
+  </div>
+  <div class="col-md-1">
+    <a href="http://www.meetup.com/SF-Renters-Fed-Testify-for-density-at-Planning-Commission/">Meetup
+      group</a>
+  </div>
+  <div class="col-md-1">
+    <a href="https://groups.google.com/forum/#!forum/sfbarentersfed">Google
+      group</a>
+  </div>
+  <div class="col-md-1">
+    <a href="https://twitter.com/SFyimby">TWITTER</a>
+  </div>
+  <div class="col-md-1">
+    <a href="https://www.facebook.com/BARentersFed">FB</a>
+  </div>
+  <div class="col-md-3">
+    Ask a question: <a href="sonja.trauss@gmail.com">sonja.trauss@gmail.com</a>
+  </div>
+  <div class="col-md-1">
+    <a href="http://sfbarf.tumblr.com">Tumblr</a>
+  </div>
+  <!--spacer-->
+  <div class="col-md-12" style="height: 20px"></div>
+
+
+  <!-- open column 1 -->
+  <div class="col-md-4">
+    <hr>
+    <h1>Upcoming</h1>
+    <div>
+      <h3>SFBARF Berkeley Meetup</h3>
+      <h4>May 16, 11am – 12pm 
+      </h4>
+      <h4>Royal Ground Coffee, 2409 Shattuck Avenue, Berkeley, CA </h4>
+      <p>This is the twice-monthly meeting for the Berkeley branch of SFBARF.</p>
+      <p><a href="https://groups.google.com/forum/#!forum/sfbarentersfed-berkeley">Berkeley Google group</a></p>
+    </div>
+    
+    <div>
+      <h3>Foster City: Pilgrim Triton Phase C Hearing</h3>
+      <h4>May 18, 5pm – 6pm </h4>
+      <h4>Foster City Council Chambers, 620 Foster City Boulevard, Foster City</h4>
+      <p>Sares Regis Group is developing Phase C of the Pilgrim Triton Master Plan, which would replace the existing 172,943
+        sf of commercial uses/17 residential homes with 65 to 70 for-sale townhomes.
+    
+        Foster City City Council is scheduled to hear the proposal the evening of May 18. In the meantime, there is
+        opposition who are also calling for a moratorium similar to those that were proposed in Walnut Creek and Emeryville.
+        Monitoring.</p>
+    </div>
+
+    <div>
+        <h3>SFHAC Affordable Housing Bike Tour</h3>
+        <h4>May 21, 10am – 1pm 
+        </h4>
+        <h4></h4>
+      
+      
+        <p>Have you ever wondered what it takes to build an affordable housing development? San Francisco, a city known
+          recently for skyrocketing rents, has actually produced a significant amount of subsidized, or below-market-rate,
+          housing. To learn about the City’s more recent projects, we’re pedaling to four different sites – in SoMa, the
+          Tenderloin and North Beach – where the developer and/or architect will talk about the story behind the building and
+          how it came to be. This tour is in conjunction with the Emerging Leaders Peer Network and the San Francisco Bicycle
+          Coalition. #SFHACTours</p>
+      
+        <p><a href="http://www.sfhac.org/event/bike-tour-san-franciscos-affordable-housing/">LINK</a></p>
+    </div>
+
+
+  </div>  <!--close column 1 -->
+  <!--open column 2 -->
+  <div class="col-md-4">
+    <!-- open purple border -->
+    <div style="border-style: solid; border-color: #60c; padding: 4px;">
+      <h3 style="margin-top: 0px; margin-bottom: 0px;">SUPER INTERESTING DISCUSSION LIST</h3>
+
+      <p>
+        Our mailing list is on Google Groups so you can <a
+          href="https://groups.google.com/forum/#!forum/sfbarentersfed">read
+        the archives</a>. <br> The email traffic is heavy on the discuss
+        list.
+
+      <form
+          action="https://groups.google.com/forum/#!forum/sfbarentersfed/join">
+        <input type="submit" value="Join Discussion Now">
+      </form>
+      <br> For a lighter list, join announce only:
+      <form
+          action="https://groups.google.com/forum/#!forum/sfbarentersfed-announce/join">
+        <input type="submit" value="Join Announcements Now">
+      </form>
+      <p></p>
+    </div>
+    <p></p>
+
+    <div style="border-style: solid; border-color: #60c; padding: 4px;">
+      <h3 style="margin-top: 0px; margin-bottom: 0px;">BERKELEY!</h3>
+
+      <p>
+        The Berkeley area group focuses on Berkeley. Be a part of the
+        cause.<a
+          href="https://groups.google.com/forum/#!forum/sfbarentersfed-berkeley">
+        Read the archives</a>.
+
+      <form
+          action="https://groups.google.com/forum/#!forum/sfbarentersfed/join">
+        <input type="submit" value="Join Discussion Now">
+      </form>
+    </div>
+
+
+    <h2><a href="https://docs.google.com/forms/d/18-S1TlCEYS2y74UUFVFEmiehB7ie0A3Xtw5aFv-Z5_8/viewform">Earn Political
+      Capital</a></h2>
+
+
+    <h2>Plan Bay Area meetings</h2>
+
+    <p>
+      May 13th<br> Plan Bay Area SF 7PM to 9PM
+      Hotel Whitcomb <br>
+      1231 Market Street<br>
+      San Francisco
+    </p>
+
+    <p>
+      <a
+          href="https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/sfbarentersfed/GB-7Wl0tzHI/f-mYz3x9YVgJ">Superhelpful
+        Background put together by Alfred</a>
+    </p>
+
+
+    <p>Plan Bay Area is where the Regional Housing Needs Allocation
+      numbers come from. Last round they underestimated housing needs in
+      SF (and all over). Give public input not to underestimate housing
+      needs this round.
+    </p>
+
+    <hr>
+
+
+    <hr>
+    <div>
+  <h3>D3 Rock The Vote</h3>
+  <h4>May 13, 6-8PM 
+  </h4>
+  <h4>2360 Polk St, San Francisco, California 94109</h4>
+
+
+  <p>Join us for an informative and fun evening of networking with neighbors, registering to vote, and learning about
+    your district and all it has to offer!
+    Did you know we are electing a District 3 Supervisor on November 15th? Make sure you are registered to vote so you
+    can have a say in the future of your neighborhood.
+    More info to come... Please pass this along to anyone you know who lives in District 3!</p>
+    </div>
+
+    <hr>
+    <div>
+  <h3>Welcome to SF Happy Hour</h3>
+  <h4>Wed, May 13, 6pm – 8pm 
+  </h4>
+  <h4>Southside Spirit House</h4>
+
+
+  <p>In anticipation of the California Young Democrat&#39;s Convention in Anaheim, the San Francisco Young Democrats are
+    hosting a pre-convention mixer of San Francisco Democratic clubs on Tuesday May 12th from 6-9pm at Southside Spirit
+    House in SOMA. We will have a reserved space as well as drink specials. Participating organizations include the Sf
+    Young Democrats, Black Young Democrats of SF, SF Tech Dems, South Beach Democratic Club, College Democrats at SFSU,
+    SF Bay Area Renters&#39; Federation, and others.</p>
+    </div>
+
+</div><!-- close column 2 -->
+<div class="col-md-4"> <!-- open column 3 -->
+    <!-- open nav -->
+<div class="panel-group" id="nav-top-level">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#nav-top-level"
+           href="#collapseTwo"> Infos </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <ul class="list-unstyled">
+          <li><a href="pages/videos.html">Videos of Testimony</a></li>
+          <li><a href="pages/background.html">Background Reading</a></li>
+          <li><a href="http://sfdbi.org/housing-unit-production">SF
+            Recently Completed (map)</a>
+          </li>
+          <li><a href="pages/pictures.html">pictures</a></li>
+          <li><a href="https://sheltered-meadow-6729.herokuapp.com/">Units
+            in Limbo</a>
+          </li>
+          <li><a href="http://www.reddit.com/r/SFBARF/wiki/index">Talking
+            Points</a>
+          </li>
+          <li><a href="pages/yimbies.html">Similar organizations working on the Peninsula</a></li>
+          <li><a href="pages/mission.html">Mission</a></li>
+        </ul>
+        <!-- Inner accordion ends here -->
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#nav-top-level"
+           href="#collapseOne"> By Region </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul class="list-unstyled">
+          <li><a href="front.html">Home</a></li>
+          <li><a href="pages/california.html">Golden State</a></li>
+          <li><a href="pages/berkeley.html">Berkeley</a></li>
+          <li><a href="pages/balboa_reservoir.html">Balboa
+            Reservoir</a>
+          </li>
+          <li><a href="pages/oakland.html">Oakland</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- close nav 3-->
+
+</div> <!-- close column 3 -->
+
+    <!-- spacer -->
+    <div style="height: 20px"></div>
+    <iframe
+        src="https://www.google.com/calendar/embed?title=SF%20Bay%20Area%20Renters&#39;%20Federation&amp;showTabs=0&amp;mode=AGENDA&amp;height=328&amp;wkst=2&amp;bgcolor=%23ffcc66&amp;src=p23s0drbi1egpms6goc48rpp6k%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLos_Angeles"
+        style="border-width: 0" width="100%" height="328" frameborder="0"
+        scrolling="no"></iframe>
+    <p>
+               <span style="text-align: center;"><a
+                   href="https://www.google.com/calendar/embed?src=p23s0drbi1egpms6goc48rpp6k%40group.calendar.google.com&ctz=America/Los_Angeles">/////Link
+                 to Calendar\\\\\</a></span>
+    </p>
+
+  </div>
+  <!-- close column 2-->
+
+</div>
+
+<!-- Bootstrap core JavaScript
+   <!-- "Bootstrap Starter Template." 9 Apr. 2015. Web. 9 Apr. 2015.
+   <!-- <http://getbootstrap.com/examples/starter-template/#>.
+      ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="strapping/jquery.min.js"></script>
+<script src="strapping/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="strapping/ie10-viewport-bug-workaround.js"></script>
+<!-- welcome back, analystics -->
+<script>
+   (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+   })(window, document, 'script',
+      '//www.google-analytics.com/analytics.js', 'ga');
+
+   ga('create', 'UA-58909495-1', 'auto');
+   ga('send', 'pageview');
+
+</script>
+
+</body>
+
+
+
+
+  
+  <!-- Bootstrap core JavaScript
+   <!-- "Bootstrap Starter Template." 9 Apr. 2015. Web. 9 Apr. 2015.
+   <!-- <http://getbootstrap.com/examples/starter-template/#>.
+      ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="strapping/jquery.min.js"></script>
+<script src="strapping/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="strapping/ie10-viewport-bug-workaround.js"></script>
+<!-- welcome back, analystics -->
+<script>
+   (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+   })(window, document, 'script',
+      '//www.google-analytics.com/analytics.js', 'ga');
+
+   ga('create', 'UA-58909495-1', 'auto');
+   ga('send', 'pageview');
+
+</script>
+  
+</body>
+</html>
