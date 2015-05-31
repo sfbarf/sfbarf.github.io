@@ -1,19 +1,22 @@
+head {
+	font-family: "Courier New", Courier, monospace;
+}
 body {
-	font-family: 'Noticia Text', serif;
+	font-family: Arial, Helvetica, sans-serif;
 	padding-bottom: 25px;
 }
 
 a:link {
-	color: #F06;
+	color: #006;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #603;
+	color: #124855;
 }
 
 a:hover {
-	color: #C06;
+	color: #0CF;
 }
 
 a:active {
