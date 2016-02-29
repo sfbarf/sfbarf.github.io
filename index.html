@@ -16,6 +16,84 @@
 
 <title>SFBA Renters Federation</title>
 
+<SCRIPT LANGUAGE="JavaScript">
+<!--- hide script from old browsers
+// You can add as many site as you want, but this script must be in the
+head of each site, 
+//and the buttons must be on each site as well.
+//Script by Qirien Dhaela,
+http://www.geocities.com/Area51/Corridor/2451/index.html,
+qirien@earthling.net
+//This script may be used for nonprofit, non-commercial, or educational
+use as long as these 
+//comment lines remain intact and the basic script is not changed.
+
+// The sites in the Webring (substitute your own!)
+sites = new Array()
+sites [1] = "http://www.eastbayforward.org/"
+sites [2] = "http://www.peninsulaforward.org/"
+sites [3] = "http://www.carlaef.org/"
+sites [4] = "http://www.growsanfrancisco.org/"
+sites [5] = "http://www.progressnoe.com/"
+sites [6] = "http://www.sfhac.org/friends/"
+sites [7] = "http://www.spur.org/"
+
+var max=sites.length-1, place=0
+
+function findthis() {
+// find which site the user is currently on
+	thisURL=document.URL.toLowerCase();
+	for (var i=1; i<=max; i++){
+		if (thisURL==sites[i])
+			place=i;
+}
+}
+
+function go(where) {
+// go to a site
+	location = sites[where];
+}
+
+function next() {
+// go to the next site
+	findthis();
+	if (place==max)
+		place=1;
+	else
+		place=place+1;
+	go(place);
+}
+
+function previous() {
+// go to the previous site
+	findthis();
+	if (place<=1)
+		place=max;
+	else
+		place=place-1;
+	go(place);
+}
+
+function getRandom() {
+// get a random number
+   return Math.random()
+}
+
+function random() {
+// go to a random site
+	findthis();
+	myrand=Math.round(getRandom()*(max));
+	if ((place==myrand) || (myrand==0))
+		random();
+	else {
+		place=myrand;
+		go(place);		
+}
+}
+	
+// end hiding from old browsers -->
+</SCRIPT>
+
 
 <!--[if lt IE 10]>
 <script>
@@ -98,7 +176,7 @@
 			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
-			<p>Donations pay for PAC expenses, mostly labor and printing. For more info, see the <a href="http://www.sfbarf.org/pages/the_money.html">Money</a> page.</p></div>
+			<p>Donations pay for labor and printing. For more info, see the <a href="http://www.sfbarf.org/pages/the_money.html">Money</a> page.</p></div>
     <!--
     <div class="col-md-8">
       <h3>What is this?</h3> 
@@ -135,63 +213,40 @@
 
 <!-- open column 2 -->
 <div class="col-md-4">
-<p><a href="https://t.co/tuk5QAVHNo"><h2>REGISTER for the 1st SF YIMBY party congress</h2></a></p>
-<p>Sunday December 6, 10 am to 6 pm, 1540 Market Street, SF 94102. Update on projects ongoing, organizing and goals for the coming year.</p>
-<p><a href="https://docs.google.com/document/d/1mTPXUY0a7BkmMFFAUAhKd0nAD67x8fhkNv44IQlwT4Y/edit?userstoinvite=donaldjdewsnup@gmail.com&ts=563fed98&actionButton=1#">Agenda Here.</a> Request access to the linked docs to be able to comment and edit.</p>
-<p><h2><a href="http://sfsierraclubbackonmission.tumblr.com/">VOTE to put Sierra Club Back on Mission</a></h2>
-<br>
-<img style="width:100%;" src="http://www.trauss.com/flyers/SC_Post_front.png"></p>
+<p><h2>ORGANIZE for more building everywhere</h2></p>
+<p><-- Come to the next IRL meeting/ hearing/ event</p>
+<p><-- Add our calendar to your calendar</p>
+
 </div> 
 
 <div class="col-md-4">
 	<h2><a href="http://www.sfbarf.org/pages/vote.html">--> Join the Federation</a></h2>
+	<br>Put your email address & address in our database. Get a voter guide. Maybe 4 emails/ year.
 	<h2><a href="https://groups.google.com/forum/#!forum/sfbarentersfed">--> Join Discussion List</a></h2>
+	<br>This is a googlegroup that covers all Bay Area housing topics. You better endable the forums tab in your gmail inbox because there are about 25 posts/ day. 
 </div>
 
 <div class="col-md-12" style="height: 20px"></div>
 <div class="col-md-12" style="height: 20px"></div>
 
 <div class="col-md-4">
-<page_top>
-
-	  <div class="col-sm-12" style="height: 20px"></div>
-		<div style="border-style: solid; border-color: #60c; padding: 4px;">
-		      <h3 style="margin-top: 0px; margin-bottom: 0px;">MAILING LIST & DISCUSSION</h3>
-		
-		      <p>
-		        Our mailing list is on Google Groups so you can <a
-		          href="https://groups.google.com/forum/#!forum/sfbarentersfed">read
-		        the archives</a>. <br> The email traffic is heavy on the discuss
-		        list.
-		
-		      <form
-		          action="https://groups.google.com/forum/#!forum/sfbarentersfed/join">
-		        <input type="submit" value="Join Discussion Now">
-		      </form>
-		      <br> For a lighter list, join announce only:
-		      <form
-		          action="https://groups.google.com/forum/#!forum/sfbarentersfed-announce/join">
-		        <input type="submit" value="Join Announcements Now">
-		      </form>
-		</div>
-    <!-- spacer -->
-    <div style="height: 20px"></div>
-		<div style="border-style: solid; border-color: #60c; padding: 4px;">
-		      <h3 style="margin-top: 0px; margin-bottom: 0px;">BERKELEY!</h3>
-		
-		      <p>
-		        The Berkeley area group focuses on Berkeley. 
-		        <a href="https://groups.google.com/forum/#!forum/sfbarentersfed-berkeley">
-		        Read the archives</a>.
-		
-		      <form
-		          action="https://groups.google.com/forum/#!forum/sfbarentersfed-berkeley">
-		        <input type="submit" value="Join Discussion Now">
-		      </form>
-    </div>
-    </page_top>
 </div>
 <div class="col-md-4">
+<P><center><h2>Anti-Housing Shortage WebRing</h2>
+<P><FORM NAME="aform">
+<Input type="button" value="Previous" onClick="previous()">    <Input
+type="button" value="Next" onClick="next()">    <INPUT TYPE="Button"
+value="Random" onClick="random()">
+</FORM></center>
+<P>Forget all those Webring Centers -- you can have your own!  Just add
+the URLS at the top in the sites[i] = statements, and put the buttons on
+each page in the Webring.  You could also use graphics and surround them
+with tags saying &lt;A HREF="javascript:previous()"&gt; &lt;IMG
+SRC="prev.gif"&gt; &lt;/A&gt;.
+<P><center>JavaScript by <A HREF="mailto:qirien@earthling.net">Qirien
+Dhaela</a></center>
+<P><I>Note: Only tested with Netscape Navigator 3.0</i>
+
 </div>
 <div class="col-md-4">            
 	<a class="twitter-timeline"  href="https://twitter.com/SFyimby" data-widget-id="626204071528136704">Tweets by @SFyimby</a>
