@@ -2,133 +2,129 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-  
-    
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<meta name="description" content="">
-<meta name="author" content="">
-
-<link rel="icon" href="images/favicon.ico">
-
-<title>SFBA Renters Federation</title>
-
-<script LANGUAGE="JavaScript">
-<!--- hide script from old browsers
-// You can add as many site as you want, but this script must be in the head of each site, 
-//and the buttons must be on each site as well.
-//Script by Qirien Dhaela, http://www.geocities.com/Area51/Corridor/2451/index.html, qirien@earthling.net
-//This script may be used for nonprofit, non-commercial, or educational use as long as these 
-//comment lines remain intact and the basic script is not changed.
-
-// The sites in the Webring (substitute your own!)
-sites = new Array()
-sites [1] = "http://www.eastbayforward.org/"
-sites [2] = "http://www.sfbarf.org/"
-sites [3] = "http://www.carlaef.org/"
-sites [4] = "http://www.growsanfrancisco.org/"
-sites [5] = "http://www.progressnoe.com/"
-
-var max=sites.length-1, place=0
-
-function findthis() {
-// find which site the user is currently on
-	thisURL=document.URL.toLowerCase();
-	for (var i=1; i<=max; i++){
-		if (thisURL==sites[i])
-			place=i;
-}
-}
-
-function go(where) {
-// go to a site
-	location = sites[where];
-}
-
-function next() {
-// go to the next site
-	findthis();
-	if (place==max)
-		place=1;
-	else
-		place=place+1;
-	go(place);
-}
-
-function previous() {
-// go to the previous site
-	findthis();
-	if (place<=1)
-		place=max;
-	else
-		place=place-1;
-	go(place);
-}
-
-function getRandom() {
-// get a random number
-   return Math.random()
-}
-
-function random() {
-// go to a random site
-	findthis();
-	myrand=Math.round(getRandom()*(max));
-	if ((place==myrand) || (myrand==0))
-		random();
-	else {
-		place=myrand;
-		go(place);		
-}
-}
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
 	
-// end hiding from old browsers -->
-</script>
-
-
-<!--[if lt IE 10]>
-<script>
-       toggleItem = function(){
-           var el = document.getElementsByTagName('blink')[0];
-           if (el.style.display === 'block') {
-               el.style.display = 'none';
-           } else {
-               el.style.display = 'block';
-           }
-       }
-
-       setInterval(toggleItem, 1000);
-
-
-
-
-</script>
-<![endif]-->
-
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<script src="strapping/ie-emulation-modes-warning.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<!-- sfbarf style -->
-<link href="css/sfbarf.style.css" rel="stylesheet" type="text/css">
-<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-
-
-  
+	<link rel="icon" href="images/favicon.ico">
+	
+	<title>SFBA Renters Federation</title>
+	
+	<script LANGUAGE="JavaScript">
+	<!--- hide script from old browsers
+	// You can add as many site as you want, but this script must be in the head of each site, 
+	//and the buttons must be on each site as well.
+	//Script by Qirien Dhaela, http://www.geocities.com/Area51/Corridor/2451/index.html, qirien@earthling.net
+	//This script may be used for nonprofit, non-commercial, or educational use as long as these 
+	//comment lines remain intact and the basic script is not changed.
+	
+	// The sites in the Webring (substitute your own!)
+	sites = new Array()
+	sites [1] = "http://www.eastbayforward.org/"
+	sites [2] = "http://www.sfbarf.org/"
+	sites [3] = "http://www.carlaef.org/"
+	sites [4] = "http://www.growsanfrancisco.org/"
+	sites [5] = "http://www.progressnoe.com/"
+	
+	var max=sites.length-1, place=0
+	
+	function findthis() {
+	// find which site the user is currently on
+		thisURL=document.URL.toLowerCase();
+		for (var i=1; i<=max; i++){
+			if (thisURL==sites[i])
+				place=i;
+	}
+	}
+	
+	function go(where) {
+	// go to a site
+		location = sites[where];
+	}
+	
+	function next() {
+	// go to the next site
+		findthis();
+		if (place==max)
+			place=1;
+		else
+			place=place+1;
+		go(place);
+	}
+	
+	function previous() {
+	// go to the previous site
+		findthis();
+		if (place<=1)
+			place=max;
+		else
+			place=place-1;
+		go(place);
+	}
+	
+	function getRandom() {
+	// get a random number
+	   return Math.random()
+	}
+	
+	function random() {
+	// go to a random site
+		findthis();
+		myrand=Math.round(getRandom()*(max));
+		if ((place==myrand) || (myrand==0))
+			random();
+		else {
+			place=myrand;
+			go(place);		
+	}
+	}
+		
+	// end hiding from old browsers -->
+	</script>
+	
+	
+	<!--[if lt IE 10]>
+	<script>
+	       toggleItem = function(){
+	           var el = document.getElementsByTagName('blink')[0];
+	           if (el.style.display === 'block') {
+	               el.style.display = 'none';
+	           } else {
+	               el.style.display = 'block';
+	           }
+	       }
+	
+	       setInterval(toggleItem, 1000);
+	
+	
+	
+	
+	</script>
+	<![endif]-->
+	
+	<!-- Bootstrap core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<script src="strapping/ie-emulation-modes-warning.js"></script>
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- sfbarf style -->
+	<link href="../css/sfbarf.style.css" rel="stylesheet" type="text/css">
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	
 </head>
 <body>
 <div class="container-fluid">
