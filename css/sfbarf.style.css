@@ -1,120 +1,151 @@
 page_top {
-	font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+
 body {
-	font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
-	padding-bottom: 25px;
+  font-family: "Comic Sans MS", "Chalkboard SE", "Gochi Hand", Arial, Helvetica,
+    sans-serif;
+  padding-bottom: 25px;
 }
 
 a:link {
-	color: #F30;
-	text-decoration: none;
+  color: #f30;
+  text-decoration: none;
 }
 
 a:visited {
-	color: #f442d1;
+  color: #f442d1;
 }
 
 a:hover {
-	color: #0CF;
+  color: #0cf;
 }
 
 a:active {
-	color: #FFF;
+  color: #fff;
 }
 
 #tumbax-header {
-	display: none !important;
+  display: none !important;
 }
 
 #tumbax {
-	width: 100% !important;
+  width: 100% !important;
 }
 
 blink {
   -webkit-animation: blink 2.2s steps(3, start) infinite;
-  -moz-animation:    blink 2.2s steps(3, start) infinite;
-  -o-animation:      blink 2.2s steps(3, start) infinite; 
-  animation:         blink 2.2s steps(3, start) infinite;
+  -moz-animation: blink 2.2s steps(3, start) infinite;
+  -o-animation: blink 2.2s steps(3, start) infinite;
+  animation: blink 2.2s steps(3, start) infinite;
 }
 
 @-webkit-keyframes blink {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-moz-keyframes blink {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-o-keyframes blink {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @keyframes blink {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
-
-
 
 blink1 {
   -webkit-animation: blink 2s steps(3, start) infinite;
-  -moz-animation:    blink 2s steps(3, start) infinite;
-  -o-animation:      blink 2s steps(3, start) infinite; 
-  animation:         blink 2s steps(3, start) infinite;
+  -moz-animation: blink 2s steps(3, start) infinite;
+  -o-animation: blink 2s steps(3, start) infinite;
+  animation: blink 2s steps(3, start) infinite;
 }
 
 @-webkit-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-moz-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-o-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 
 blink2 {
   -webkit-animation: blink 1.33s steps(3, start) infinite;
-  -moz-animation:    blink 1.33s steps(3, start) infinite;
-  -o-animation:      blink 1.33s steps(3, start) infinite; 
-  animation:         blink 1.33s steps(3, start) infinite;
+  -moz-animation: blink 1.33s steps(3, start) infinite;
+  -o-animation: blink 1.33s steps(3, start) infinite;
+  animation: blink 1.33s steps(3, start) infinite;
 }
 
 @-webkit-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-moz-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-o-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
-
 
 blink3 {
   -webkit-animation: blink 1.66s steps(3, start) infinite;
-  -moz-animation:    blink 1.66s steps(3, start) infinite;
-  -o-animation:      blink 1.66s steps(3, start) infinite; 
-  animation:         blink 1.66s steps(3, start) infinite;
+  -moz-animation: blink 1.66s steps(3, start) infinite;
+  -o-animation: blink 1.66s steps(3, start) infinite;
+  animation: blink 1.66s steps(3, start) infinite;
 }
 
 @-webkit-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-moz-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @-o-keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 @keyframes blink1 {
-  to { visibility: hidden; }
+  to {
+    visibility: hidden;
+  }
 }
 
-
 .highlight {
-text-decoration: underline;
+  text-decoration: underline;
 }
