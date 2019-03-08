@@ -1,169 +1,200 @@
-
 <!DOCTYPE html>
 <html>
-<head lang="en">
-  
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<meta name="description" content="">
-<meta name="author" content="">
+  <head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
-<link rel="icon" href="images/favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css?family=Gochi+Hand"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" />
 
-<title>SFBA Renters Federation</title>
+    <title>SFBA Renters Federation</title>
 
-<script LANGUAGE="JavaScript">
-// <!--- hide script from old browsers
-// You can add as many site as you want, but this script must be in the head of each site, 
-//and the buttons must be on each site as well.
-//Script by Qirien Dhaela, http://www.geocities.com/Area51/Corridor/2451/index.html, qirien@earthling.net
-//This script may be used for nonprofit, non-commercial, or educational use as long as these 
-//comment lines remain intact and the basic script is not changed.
+    <script LANGUAGE="JavaScript">
+      // <!--- hide script from old browsers
+      // You can add as many site as you want, but this script must be in the head of each site,
+      //and the buttons must be on each site as well.
+      //Script by Qirien Dhaela, http://www.geocities.com/Area51/Corridor/2451/index.html, qirien@earthling.net
+      //This script may be used for nonprofit, non-commercial, or educational use as long as these
+      //comment lines remain intact and the basic script is not changed.
 
-// The sites in the Webring (substitute your own!)
-sites = new Array()
-sites [1] = "http://www.eastbayforward.org/"
-sites [2] = "http://www.sfbarf.org/"
-sites [3] = "http://www.carlaef.org/"
-sites [4] = "http://www.growsanfrancisco.org/"
-sites [5] = "http://www.progressnoe.com/"
-sites [6] = "http://www.sfyimby.org/"
+      // The sites in the Webring (substitute your own!)
+      sites = new Array();
+      sites[1] = "http://www.eastbayforward.org/";
+      sites[2] = "http://www.sfbarf.org/";
+      sites[3] = "http://www.carlaef.org/";
+      sites[4] = "http://www.growsanfrancisco.org/";
+      sites[5] = "http://www.progressnoe.com/";
+      sites[6] = "http://www.sfyimby.org/";
 
-var max=sites.length-1, place=0
+      var max = sites.length - 1,
+        place = 0;
 
-function findthis() {
-// find which site the user is currently on
-	thisURL=document.URL.toLowerCase();
-	for (var i=1; i<=max; i++){
-		if (thisURL==sites[i])
-			place=i;
-}
-}
+      function findthis() {
+        // find which site the user is currently on
+        thisURL = document.URL.toLowerCase();
+        for (var i = 1; i <= max; i++) {
+          if (thisURL == sites[i]) place = i;
+        }
+      }
 
-function go(where) {
-// go to a site
-	location = sites[where];
-}
+      function go(where) {
+        // go to a site
+        location = sites[where];
+      }
 
-function next() {
-// go to the next site
-	findthis();
-	if (place==max)
-		place=1;
-	else
-		place=place+1;
-	go(place);
-}
+      function next() {
+        // go to the next site
+        findthis();
+        if (place == max) place = 1;
+        else place = place + 1;
+        go(place);
+      }
 
-function previous() {
-// go to the previous site
-	findthis();
-	if (place<=1)
-		place=max;
-	else
-		place=place-1;
-	go(place);
-}
+      function previous() {
+        // go to the previous site
+        findthis();
+        if (place <= 1) place = max;
+        else place = place - 1;
+        go(place);
+      }
 
-function getRandom() {
-// get a random number
-   return Math.random()
-}
+      function getRandom() {
+        // get a random number
+        return Math.random();
+      }
 
-function random() {
-// go to a random site
-	findthis();
-	myrand=Math.round(getRandom()*(max));
-	if ((place==myrand) || (myrand==0))
-		random();
-	else {
-		place=myrand;
-		go(place);		
-}
-}
-	
-// end hiding from old browsers -->
-</script>
+      function random() {
+        // go to a random site
+        findthis();
+        myrand = Math.round(getRandom() * max);
+        if (place == myrand || myrand == 0) random();
+        else {
+          place = myrand;
+          go(place);
+        }
+      }
 
+      // end hiding from old browsers -->
+    </script>
 
-<!--[if lt IE 10]>
-<script>
-       toggleItem = function(){
-           var el = document.getElementsByTagName('blink')[0];
-           if (el.style.display === 'block') {
-               el.style.display = 'none';
-           } else {
-               el.style.display = 'block';
-           }
-       }
+    <!--[if lt IE 10]>
+      <script>
+        toggleItem = function() {
+          var el = document.getElementsByTagName("blink")[0];
+          if (el.style.display === "block") {
+            el.style.display = "none";
+          } else {
+            el.style.display = "block";
+          }
+        };
 
-       setInterval(toggleItem, 1000);
+        setInterval(toggleItem, 1000);
+      </script>
+    <![endif]-->
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="strapping/ie-emulation-modes-warning.js"></script>
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-
-</script>
-<![endif]-->
-
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<script src="strapping/ie-emulation-modes-warning.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<!-- sfbarf style -->
-<link href="css/sfbarf.style.css" rel="stylesheet" type="text/css">
-<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+    <!-- sfbarf style -->
+    <link href="css/sfbarf.style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="//cdn-images.mailchimp.com/embedcode/classic-081711.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+      }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-
-</head>
-<body>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-5">
-			<h2><a href="/">SF Bay Area Renters' Federation</a></h2>
-			<div class="row">
-        <div class="col-sm-12">
-        	<a href="https://groups.google.com/forum/#!forum/sfbarentersfed"><img src="http://www.trauss.com/little_pics/email.png"></a>
-	        <a href="http://sfbarf.tumblr.com/"><img src="http://www.trauss.com/little_pics/tumblr.png"></a>
-	        <a href="http://www.meetup.com/SF-Renters-Fed-Testify-for-density-at-Planning-Commission/"><img src="http://www.trauss.com/little_pics/meetup.png"></a>
-	        <a href="https://www.facebook.com/BARentersFed"><img src="http://www.trauss.com/little_pics/facebook.png"></a>
-	        <a hre="https://www.youtube.com/channel/UC2txNHwKEJsPKNkSwSOwMUQ/videos"><img src="http://www.trauss.com/little_pics/youtube-2.png"></a>
-	        <a href="http://www.reddit.com/r/SFBARF/"><img src="http://www.trauss.com/little_pics/reddit.png"></a>
-	        <a href="https://plus.google.com/u/0/b/114438947309426306390/114438947309426306390/posts"><img src="http://www.trauss.com/little_pics/googleplus.png"></a>
-	        <a href="https://github.com/sfbarf"><img src="http://www.trauss.com/little_pics/github.png"></a>
-	        <a href="https://twitter.com/sfbarfbot"><img src="http://www.trauss.com/little_pics/twitter.png"></a>
-	      </div>
-      </div>
-    </div>  
-    <div class="col-md-2">
-    	<p><a href="http://www.sfbarf.org/pages/yimbies.html">Similar organizations</a><br>
-					<a href="http://www.reddit.com/r/SFBARF/wiki/faq">FAQ</a>, other <a href="https://docs.google.com/document/d/1eTmMS_ypTEh1tABRPWNsix2Qesgbsvk-tRbl2b9Jbj8/edit">Readings</a><br>
-    	</p>
-    </div>
-    <div class="col-md-2">
-    	<p>
-    		IRL Address:<br>
-    		<a href="https://www.google.com/maps/place/1554+Market+St,+San+Francisco,+CA+94102/@37.7748544,-122.4202022,17z/data=!3m1!4b1!4m2!3m1!1s0x8085809eee7e5f25:0xcb34fbc5de7e4bd3">1540 Market Street, Suite 100<br>
-    		SF, CA 94102</a>
-    	</p>
-    </div>
-		<div class="col-md-3">
-			<a href="http://www.yimbyaction.org"><img style="width: 25%;" src="/images/yp.black.houselogo1.png"></a><br>Member
-		</div>
-    <!--
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+          <h2><a href="/">SF Bay Area Renters' Federation</a></h2>
+          <div class="row">
+            <div class="col-sm-12">
+              <a href="https://groups.google.com/forum/#!forum/sfbarentersfed"
+                ><img src="http://www.trauss.com/little_pics/email.png"
+              /></a>
+              <a href="http://sfbarf.tumblr.com/"
+                ><img src="http://www.trauss.com/little_pics/tumblr.png"
+              /></a>
+              <a
+                href="http://www.meetup.com/SF-Renters-Fed-Testify-for-density-at-Planning-Commission/"
+                ><img src="http://www.trauss.com/little_pics/meetup.png"
+              /></a>
+              <a href="https://www.facebook.com/BARentersFed"
+                ><img src="http://www.trauss.com/little_pics/facebook.png"
+              /></a>
+              <a
+                hre="https://www.youtube.com/channel/UC2txNHwKEJsPKNkSwSOwMUQ/videos"
+                ><img src="http://www.trauss.com/little_pics/youtube-2.png"
+              /></a>
+              <a href="http://www.reddit.com/r/SFBARF/"
+                ><img src="http://www.trauss.com/little_pics/reddit.png"
+              /></a>
+              <a
+                href="https://plus.google.com/u/0/b/114438947309426306390/114438947309426306390/posts"
+                ><img src="http://www.trauss.com/little_pics/googleplus.png"
+              /></a>
+              <a href="https://github.com/sfbarf"
+                ><img src="http://www.trauss.com/little_pics/github.png"
+              /></a>
+              <a href="https://twitter.com/sfbarfbot"
+                ><img src="http://www.trauss.com/little_pics/twitter.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p>
+            <a href="http://www.sfbarf.org/pages/yimbies.html"
+              >Similar organizations</a
+            ><br />
+            <a href="http://www.reddit.com/r/SFBARF/wiki/faq">FAQ</a>, other
+            <a
+              href="https://docs.google.com/document/d/1eTmMS_ypTEh1tABRPWNsix2Qesgbsvk-tRbl2b9Jbj8/edit"
+              >Readings</a
+            ><br />
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p>
+            IRL Address:<br />
+            <a
+              href="https://www.google.com/maps/place/1554+Market+St,+San+Francisco,+CA+94102/@37.7748544,-122.4202022,17z/data=!3m1!4b1!4m2!3m1!1s0x8085809eee7e5f25:0xcb34fbc5de7e4bd3"
+              >1540 Market Street, Suite 100<br />
+              SF, CA 94102</a
+            >
+          </p>
+        </div>
+        <div class="col-md-3">
+          <a href="http://www.yimbyaction.org"
+            ><img style="width: 25%;" src="/images/yp.black.houselogo1.png"/></a
+          ><br />Member
+        </div>
+        <!--
     <div class="col-md-8">
       <h3>What is this?</h3> 
 		  <div style="height: 20px"></div>
@@ -172,134 +203,210 @@ function random() {
         </p></page_top>
       </div> 
     </div> -->
+      </div>
+      <hr />
+      <div class="col-md-2">
+        <a href="/pages/past_hearings.html">Projects & Archives</a>
+      </div>
+      <div class="col-md-2"><a href="/pages/videos.html">Videos</a></div>
+      <div class="col-md-2">
+        <a
+          href="https://docs.google.com/document/d/1RZFsnvE6win73uwiiIcA5vhc_dzcfvBCH0j04yzauao/edit"
+          >Press</a
+        >
+      </div>
+      <div class="col-md-2">
+        <a href="http://www.carlaef.org/">Lafayette Lawsuit</a>
+      </div>
 
-  </div>
-  <hr>
-	<div class="col-md-2"><a href="/pages/past_hearings.html">Projects & Archives</a></div>
-	<div class="col-md-2"><a href="/pages/videos.html">Videos</a></div>
-	<div class="col-md-2"><a href="https://docs.google.com/document/d/1RZFsnvE6win73uwiiIcA5vhc_dzcfvBCH0j04yzauao/edit">Press</a></div>
-  <div class="col-md-2"><a href="http://www.carlaef.org/">Lafayette Lawsuit</a></div>
-  
-  <div class="col-md-2"><a href="/pages/legislation.html">Legislation Library</a></div>
-  <div class="col-md-2">email: <a href="mailto:sonja.trauss@gmail.com">sonja.trauss@gmail.com</a></div>
+      <div class="col-md-2">
+        <a href="/pages/legislation.html">Legislation Library</a>
+      </div>
+      <div class="col-md-2">
+        email:
+        <a href="mailto:sonja.trauss@gmail.com">sonja.trauss@gmail.com</a>
+      </div>
 
-<!--spacer-->
-<div class="col-md-12" style="height: 20px"></div>
+      <!--spacer-->
+      <div class="col-md-12" style="height: 20px"></div>
 
-<!--open column 1 -->
-<div class="col-md-4">
-<!-- spacer -->
-	<div class="col-sm-12" style="height: 20px">
-	</div>
-	<div class="col-sm-12">
-<iframe src="https://calendar.google.com/calendar/embed?src=1ng34go1ufl6p77v4bade2dnes%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="328" frameborder="0" scrolling="no"></iframe>    
-    <p>
-       <span style="text-align: center;"><a href="https://calendar.google.com/calendar/embed?src=1ng34go1ufl6p77v4bade2dnes%40group.calendar.google.com&ctz=America%2FLos_Angeles">/////Link to Calendar\\\\\</a></span> * * * <a href="https://www.facebook.com/BARentersFed/events">Upcoming Events</a>
-    </p>
-	</div>	
-  <div class="col-sm-12" style="height: 20px">
-	</div>
-	<div class="col-sm-12">
-		<h2><a href="http://www.carlaef.org">--> Info on the Lafayette lawsuit</a></h2>
-		<h2><a href="http://www.sfbarf.org/pages/vote.html">--> Join the Federation</a></h2>
-		<br>Put your email address & address in our database. Get a voter guide. Maybe 4 emails/ year.
-		<h2><a href="https://groups.google.com/forum/#!forum/sfbarentersfed">--> Join Discussion List</a></h2>
-		<br>This is a googlegroup that covers all Bay Area housing topics. You better enable the forums tab in your gmail inbox because there are about 6 posts/ day. 
-		<br>
-		<br>
-		<p><b>What is the SF Bay Area Renters' Federation?</b> 
-		<br>SFBARF is an unincorporated club of pro-building, pro-density renters. Housing shortage is bad for renters (and good for homeowners, incidentally). High prices are merely a symptom of the underlying shortage. Fixing prices won't solve the shortage problem. Without an increase in overall yearly production of housing in the Bay Area, we will continue to suffer from displacement, crowding and exploitation from landlords. For more information read an interview <a href="http://www.oregonlive.com/front-porch/index.ssf/2016/04/yes_in_my_back_yard_a_housing.html">here</a> with the founder of SFBARF. Even more press can be found <a href="https://docs.google.com/document/d/1RZFsnvE6win73uwiiIcA5vhc_dzcfvBCH0j04yzauao/edit">here</a>.
-		</p>
+      <!--open column 1 -->
+      <div class="col-md-4">
+        <!-- spacer -->
+        <div class="col-sm-12" style="height: 20px"></div>
+        <div class="col-sm-12">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=1ng34go1ufl6p77v4bade2dnes%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+            style="border: 0"
+            width="100%"
+            height="328"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+          <p>
+            <span style="text-align: center;"
+              ><a
+                href="https://calendar.google.com/calendar/embed?src=1ng34go1ufl6p77v4bade2dnes%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+                >/////Link to Calendar\\\\\</a
+              ></span
+            >
+            * * *
+            <a href="https://www.facebook.com/BARentersFed/events"
+              >Upcoming Events</a
+            >
+          </p>
+        </div>
+        <div class="col-sm-12" style="height: 20px"></div>
+        <div class="col-sm-12">
+          <h2>
+            <a href="http://www.carlaef.org"
+              >--> Info on the Lafayette lawsuit</a
+            >
+          </h2>
+          <h2>
+            <a href="http://www.sfbarf.org/pages/vote.html"
+              >--> Join the Federation</a
+            >
+          </h2>
+          <br />Put your email address & address in our database. Get a voter
+          guide. Maybe 4 emails/ year.
+          <h2>
+            <a href="https://groups.google.com/forum/#!forum/sfbarentersfed"
+              >--> Join Discussion List</a
+            >
+          </h2>
+          <br />This is a googlegroup that covers all Bay Area housing topics.
+          You better enable the forums tab in your gmail inbox because there are
+          about 6 posts/ day.
+          <br />
+          <br />
+          <p>
+            <b>What is the SF Bay Area Renters' Federation?</b> <br />SFBARF is
+            an unincorporated club of pro-building, pro-density renters. Housing
+            shortage is bad for renters (and good for homeowners, incidentally).
+            High prices are merely a symptom of the underlying shortage. Fixing
+            prices won't solve the shortage problem. Without an increase in
+            overall yearly production of housing in the Bay Area, we will
+            continue to suffer from displacement, crowding and exploitation from
+            landlords. For more information read an interview
+            <a
+              href="http://www.oregonlive.com/front-porch/index.ssf/2016/04/yes_in_my_back_yard_a_housing.html"
+              >here</a
+            >
+            with the founder of SFBARF. Even more press can be found
+            <a
+              href="https://docs.google.com/document/d/1RZFsnvE6win73uwiiIcA5vhc_dzcfvBCH0j04yzauao/edit"
+              >here</a
+            >.
+          </p>
 
-	<div>
-	
-</div> <!-- close column 1-->
-	</div>
-	</div>
+          <div></div>
+          <!-- close column 1-->
+        </div>
+      </div>
 
-	<!-- open column 2 -->
-<div class="col-md-8">
-<p>San Francisco Residential Nexus Analysis: Not legally adequate. Read why<a href="https://docs.google.com/document/d/1SZDmWSM9r5ff7Au4aXPmZocnmms75poLbg-IWFGtb1A/edit#"> here.</a></p> 
-	<hr>
-	<h1>VOTE for the Official YIMBY Mascot</h1> 
-	<a href="mascot.html">Click here for more info.</a> 
-	<p>You can only vote in person at the conference, if you're not at the conference, try to get someone who is at the conference vote your way. Or come through! The conference is at Oakstop in Oakland from 6pm on Thursday July 13th to noon on Sunday 16th. More info <a href="http://yimby.town">here</a>.
-</div> 
-	
-<!-- row 2 -->
-<div class="col-md-12" style="height: 20px"></div>
+      <!-- open column 2 -->
+      <div class="col-md-8">
+        <p>
+          San Francisco Residential Nexus Analysis: Not legally adequate. Read
+          why<a
+            href="https://docs.google.com/document/d/1SZDmWSM9r5ff7Au4aXPmZocnmms75poLbg-IWFGtb1A/edit#"
+          >
+            here.</a
+          >
+        </p>
+        <hr />
+        <h1>VOTE for the Official YIMBY Mascot</h1>
+        <a href="mascot.html">Click here for more info.</a>
+        <p>
+          You can only vote in person at the conference, if you're not at the
+          conference, try to get someone who is at the conference vote your way.
+          Or come through! The conference is at Oakstop in Oakland from 6pm on
+          Thursday July 13th to noon on Sunday 16th. More info
+          <a href="http://yimby.town">here</a>.
+        </p>
+      </div>
 
-<!-- row 3 aka cols 1,2,3 -->
-<div class="col-md-4"></div>	
-<div class="col-md-4"></div>
-<div class="col-md-4"></div>	
-<!-- end row 3 -->
-	
-<!-- open row 4 aka cols 4,5,6 -->
-<div class="col-md-6">	</div>
-	
-<div class="col-md-6">	</div>
+      <!-- row 2 -->
+      <div class="col-md-12" style="height: 20px"></div>
 
-<!-- close row 4 aka cols 4,5,6 -->
+      <!-- row 3 aka cols 1,2,3 -->
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+      <!-- end row 3 -->
 
-<div class="col-md-12" style="height: 20px"></div>
-<div class="col-md-12" style="height: 20px"></div>
+      <!-- open row 4 aka cols 4,5,6 -->
+      <div class="col-md-6"></div>
 
-<!-- open column 7 -->
-<div class="col-md-4"></div>
+      <div class="col-md-6"></div>
 
-<!-- open column 8 -->
-<div class="col-md-4">
-	<p>
-		<center>pro-building webring<br>
-			<p>
-				<form NAME="aform">
-				<Input type="button" value="Previous" onClick="previous()">    
-				<Input type="button" value="Next" onClick="next()">    
-				<INPUT TYPE="Button" value="Random" onClick="random()">
-				</form>
-			</p>
-		</center>
-	</p>
+      <!-- close row 4 aka cols 4,5,6 -->
 
-	<p>JavaScript by <a href="mailto:qirien@earthling.net">Qirien Dhaela</a> 
-	<br><i>Note: Only tested with Netscape Navigator 3.0</i>
-	</p>
-</div>
+      <div class="col-md-12" style="height: 20px"></div>
+      <div class="col-md-12" style="height: 20px"></div>
 
-<!-- open column 9 -->
-<div class="col-md-4"></div>
-<!-- close column 9 -->
+      <!-- open column 7 -->
+      <div class="col-md-4"></div>
 
-</div>
+      <!-- open column 8 -->
+      <div class="col-md-4">
+        <p>
+          <center>
+            pro-building webring<br />
 
-<!-- Bootstrap core JavaScript
+            <form NAME="aform">
+              <Input type="button" value="Previous" onClick="previous()" />
+              <Input type="button" value="Next" onClick="next()" />
+              <INPUT TYPE="Button" value="Random" onClick="random()" />
+            </form>
+          </center>
+        </p>
+
+        <p>
+          JavaScript by <a href="mailto:qirien@earthling.net">Qirien Dhaela</a>
+          <br /><i>Note: Only tested with Netscape Navigator 3.0</i>
+        </p>
+      </div>
+
+      <!-- open column 9 -->
+      <div class="col-md-4"></div>
+      <!-- close column 9 -->
+    </div>
+
+    <!-- Bootstrap core JavaScript
    "Bootstrap Starter Template." 9 Apr. 2015. Web. 9 Apr. 2015.
    <http://getbootstrap.com/examples/starter-template/#>.
       ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="strapping/jquery.min.js"></script>
-<script src="strapping/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="strapping/ie10-viewport-bug-workaround.js"></script>
-<!-- welcome back, analystics -->
-<script>
-   (function(i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-   })(window, document, 'script',
-      '//www.google-analytics.com/analytics.js', 'ga');
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="strapping/jquery.min.js"></script>
+    <script src="strapping/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="strapping/ie10-viewport-bug-workaround.js"></script>
+    <!-- welcome back, analystics -->
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-   ga('create', 'UA-58909495-1', 'auto');
-   ga('send', 'pageview');
-
-</script>
-
-</body>
+      ga("create", "UA-58909495-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
 </html>
